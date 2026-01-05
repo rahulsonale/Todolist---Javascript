@@ -3,7 +3,7 @@
   width: 680px;
 
   border-radius: 14px;
-  background-color: rgb(149, 120, 237);
+  background-color: #ebf4dd;
 }
 body {
   display: flex;
@@ -11,7 +11,8 @@ body {
   align-items: center;
   height: 100vh;
   margin: 0;
-  background-color: blueviolet;
+  background-color: #90ab8b;
+  color: #3b4953;
 }
 
 .text-container {
@@ -32,7 +33,7 @@ button {
   border-radius: 14px;
 }
 .btn {
-  margin-top: 2%;
+  margin-top: 40px;
   width: 110px;
   height: 40px;
   border-radius: 14px;
@@ -41,11 +42,11 @@ button {
 .btn-container {
   display: flex;
   justify-content: center;
-  gap: 10px;
+  gap: 40px;
 }
 
 .todolist-container {
-  margin-top: 20px;
+  margin-top: 25px;
   display: flex;
   justify-content: center;
   gap: 60px;
