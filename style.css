@@ -1,0 +1,53 @@
+.main-container {
+  height: 780px;
+  width: 680px;
+
+  border-radius: 14px;
+  background-color: rgb(149, 120, 237);
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: blueviolet;
+}
+
+.text-container {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+#text {
+  height: 40px;
+  width: 480px;
+  border-radius: 14px;
+  text-align: center;
+  font-size: large;
+}
+button {
+  width: 80px;
+  border-radius: 14px;
+}
+.btn {
+  margin-top: 2%;
+  width: 110px;
+  height: 40px;
+  border-radius: 14px;
+  font-size: large;
+}
+.btn-container {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.todolist-container {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+  margin-bottom: 15px;
+}
